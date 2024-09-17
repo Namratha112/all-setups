@@ -28,3 +28,7 @@
 
     - name: start the tomcat
       shell: nohup /root/tomcat/bin/startup.sh
+
+
+nohup is a POSIX command which means "no hang up". Its purpose is to execute a command
+such that it ignores the HUP (hangup) signal and therefore does not stop when the user logs out.
