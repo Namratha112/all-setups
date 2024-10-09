@@ -5,3 +5,8 @@ yum update -y
 yum install jfrog-artifactory-oss -y
 systemctl start artifactory.service
 systemctl status artifactory.service
+
+
+AMI-linux 
+AMI intsance type: t2-medium
+SG: 8081 and anywhere. 
